@@ -34,8 +34,8 @@
 </head>
 <body class="font-manrope">
     <header class="container mx-auto">
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row">
+        <div class="my-20">
+            <div class="flex justify-between items-center flex-col lg:flex-row">
               <div>
                 <h1 class="text-7xl font-extrabold">
                     It's good <br>
@@ -45,7 +45,7 @@
                 <button class="btn btn-primary">Explore More</button>
               </div>
               <div>
-                <img src="./images/banner.png" class="max-w-sm" />
+                <img src="./images/banner.png" class="" />
                 <!-- rationgs badge -->
                 <div class="-mt-14 flex items-center gap-4 
                 drop-shadow-lg bg-white p-5 w-60">
@@ -187,12 +187,79 @@
             <h1 class="text-5xl font-extrabold mb-5" >News & Events</h1>
             <p class="lg:max-w-3xl mb-10 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
           </div>
+          <div class="pl-8 my-24 gap-6 flex">
+            <!-- fast card -->
+            <div class="p-6 card bg-base-100 shadow-xl">
+              <figure class="">
+                <img src="./images/news-1.png" alt="" class="rounded-xl " />
+              </figure>
+              <div class="pl-8">
+                <h4 class="mt-5 font-medium">Feb 05, 2027</h4>
+                <h1 class="font-extrabold mt-2">Collecting 8 points for <br> discount</h1>
+                <p class="font-medium mt-2">There are many variations of passages of Lorem Ipsum available.</p>
+                <h2 class="mt-2 font-bold">Learn More</h2>
+              </div>
+            </div>
+            <!-- scend card -->
+            <div class="p-6 card bg-base-100 shadow-xl">
+              <figure class="">
+                <img src="./images/news-2.png" alt="" class="rounded-xl " />
+              </figure>
+              <div class="pl-8">
+                <h4 class="mt-5 font-medium">Feb 05, 2027</h4>
+                <h1 class="font-extrabold mt-2">Collecting 8 points for <br> discount</h1>
+                <p class="font-medium mt-2">There are many variations of passages of Lorem Ipsum available.</p>
+                <h2 class="mt-2 font-bold">Learn More</h2>
+              </div>
+            </div>
+            <!-- therd card -->
+            <div class="p-6 card bg-base-100 shadow-xl">
+              <figure class="">
+                <img src="./images/news-3.png" alt="" class="rounded-xl " />
+              </figure>
+              <div class="pl-8">
+                <h4 class="mt-5 font-medium">Feb 05, 2027</h4>
+                <h1 class="font-extrabold mt-2">Collecting 8 points for <br> discount</h1>
+                <p class="font-medium mt-2">There are many variations of passages of Lorem Ipsum available.</p>
+                <h2 class="mt-2 font-bold">Learn More</h2>
+              </div>
+            </div>
+          </div>
         </section>
-        text-5xl font-extrabold mb-5
-        lg:max-w-3xl mb-10 mx-auto
     </main>
-    <footer>
-
+    <footer class="footer p-10 bg-base-200 text-base-content">
+      <nav>
+        <header class="footer-title">Services</header> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Legal</header> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav> 
+      <form>
+        <header class="footer-title">Newsletter</header> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+            <button class="btn btn-primary join-item">Subscribe</button>
+          </div>
+        </fieldset>
+      </form>
     </footer>
     
 </body>
